@@ -71,7 +71,7 @@ if [ $answerMe == 'n' ]; then
     echo 'Manual testing needed. IPTables are currently turned off.'
     exit
 elif [ $answerMe == 'y' ]; then
-    #systemctl start iptables
+    systemctl start iptables
     echo 'IPTables are now back up!'
 fi
 
